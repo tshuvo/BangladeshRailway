@@ -1,0 +1,121 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="57.09dp"
+    android:height="57.09dp"
+    android:autoMirrored="true"
+    android:viewportWidth="57.09"
+    android:viewportHeight="57.09">
+    <path
+        android:fillColor="@color/blue_light"
+        android:pathData="M52,28.55A23.42,23.42 0,1 1,28.54 5.13,23.41 23.41,0 0,1 52,28.55Z" />
+    <path
+        android:fillColor="@color/blue_light"
+        android:pathData="M27.5,56.05a1,1 0,1 1,1 1A1,1 0,0 1,27.5 56.05Z" />
+    <path
+        android:fillColor="@color/blue_light"
+        android:pathData="M27.5,1a1,1 0,1 1,1 1A1,1 0,0 1,27.5 1Z" />
+    <path
+        android:fillColor="@color/blue_light"
+        android:pathData="M1,27.5a1,1 0,1 1,-1 1A1,1 0,0 1,1 27.5Z" />
+    <path
+        android:fillColor="@color/blue_light"
+        android:pathData="M56.05,27.5a1,1 0,1 1,-1 1A1,1 0,0 1,56.05 27.5Z" />
+    <path
+        android:fillColor="@color/blue_light"
+        android:pathData="M32.29,55.81a1,1 0,1 1,1.21 0.84A1,1 0,0 1,32.29 55.81Z" />
+    <path
+        android:fillColor="@color/blue_light"
+        android:pathData="M22.74,1.64A1,1 0,1 1,24 2.49,1 1,0 0,1 22.74,1.64Z" />
+    <path
+        android:fillColor="@color/blue_light"
+        android:pathData="M1.28,32.29A1,1 0,1 1,0.43 33.5,1 1,0 0,1 1.28,32.29Z" />
+    <path
+        android:fillColor="@color/blue_light"
+        android:pathData="M55.45,22.74A1,1 0,1 1,54.6 24,1 1,0 0,1 55.45,22.74Z" />
+    <path
+        android:fillColor="@color/blue_light"
+        android:pathData="M37,54.74a1,1 0,0 1,0.62 -1.33,1 1,0 1,1 0.72,2A1.06,1.06 0,0 1,37 54.74Z" />
+    <path
+        android:fillColor="@color/blue_light"
+        android:pathData="M18.16,3.06a1,1 0,1 1,1.33 0.62A1,1 0,0 1,18.16 3.06Z" />
+    <path
+        android:fillColor="@color/blue_light"
+        android:pathData="M2.34,37a1,1 0,1 1,-0.62 1.34A1,1 0,0 1,2.34 37Z" />
+    <path
+        android:fillColor="@color/blue_light"
+        android:pathData="M54,18.16a1,1 0,0 1,1.34 0.62,1.06 1.06,0 0,1 -0.63,1.34 1,1 0,0 1,-0.71 -2Z" />
+    <path
+        android:fillColor="@color/blue_light"
+        android:pathData="M41.39,52.88a1,1 0,0 1,0.38 -1.42,1 1,0 1,1 -0.38,1.42Z" />
+    <path
+        android:fillColor="@color/blue_light"
+        android:pathData="M13.89,5.25a1,1 0,0 1,0.38 -1.43,1 1,0 1,1 1,1.81A1,1 0,0 1,13.89 5.25Z" />
+    <path
+        android:fillColor="@color/blue_light"
+        android:pathData="M4.21,41.39a1,1 0,0 1,1 1.81,1 1,0 1,1 -1,-1.81Z" />
+    <path
+        android:fillColor="@color/blue_light"
+        android:pathData="M51.84,13.89a1,1 0,0 1,1.42 0.38,1 1,0 1,1 -1.42,-0.38Z" />
+    <path
+        android:fillColor="@color/blue_light"
+        android:pathData="M45.42,50.28a1,1 0,1 1,1.47 0.13A1,1 0,0 1,45.42 50.28Z" />
+    <path
+        android:fillColor="@color/blue_light"
+        android:pathData="M10.07,8.15a1,1 0,1 1,1.6 -1.34,1 1,0 1,1 -1.6,1.34Z" />
+    <path
+        android:fillColor="@color/blue_light"
+        android:pathData="M6.81,45.42a1,1 0,0 1,1.46 0.13,1 1,0 1,1 -1.46,-0.13Z" />
+    <path
+        android:fillColor="@color/blue_light"
+        android:pathData="M48.94,10.07a1,1 0,0 1,1.47 0.13,1 1,0 0,1 -1.6,1.34A1,1 0,0 1,48.94 10.07Z" />
+    <path
+        android:fillColor="@color/blue_light"
+        android:pathData="M48.94,47a1,1 0,1 1,1.47 -0.13A1,1 0,0 1,48.94 47Z" />
+    <path
+        android:fillColor="@color/blue_light"
+        android:pathData="M6.81,11.66a1,1 0,0 1,-0.13 -1.46,1 1,0 1,1 1.59,1.34A1,1 0,0 1,6.81 11.66Z" />
+    <path
+        android:fillColor="@color/blue_light"
+        android:pathData="M10.07,48.94a1,1 0,1 1,0.13 1.47A1,1 0,0 1,10.07 48.94Z" />
+    <path
+        android:fillColor="@color/blue_light"
+        android:pathData="M45.42,6.81a1,1 0,1 1,0.13 1.47A1,1 0,0 1,45.42 6.81Z" />
+    <path
+        android:fillColor="@color/blue_light"
+        android:pathData="M51.84,43.2a1,1 0,0 1,-0.38 -1.43,1 1,0 0,1 1.42,-0.38 1,1 0,0 1,-1 1.81Z" />
+    <path
+        android:fillColor="@color/blue_light"
+        android:pathData="M4.21,15.7a1.06,1.06 0,0 1,-0.39 -1.43,1 1,0 1,1 0.39,1.43Z" />
+    <path
+        android:fillColor="@color/blue_light"
+        android:pathData="M13.89,51.84a1,1 0,1 1,0.38 1.42A1,1 0,0 1,13.89 51.84Z" />
+    <path
+        android:fillColor="@color/blue_light"
+        android:pathData="M41.39,4.21a1,1 0,1 1,1.81 1,1 1,0 0,1 -1.81,-1Z" />
+    <path
+        android:fillColor="@color/blue_light"
+        android:pathData="M54,38.93a1,1 0,0 1,-0.62 -1.34A1,1 0,0 1,54.74 37a1.06,1.06 0,0 1,0.63 1.34A1,1 0,0 1,54 38.93Z" />
+    <path
+        android:fillColor="@color/blue_light"
+        android:pathData="M2.34,20.12a1,1 0,1 1,0.72 -2,1 1,0 0,1 0.62,1.33A1,1 0,0 1,2.34 20.12Z" />
+    <path
+        android:fillColor="@color/blue_light"
+        android:pathData="M18.16,54a1,1 0,0 1,2 0.71,1.06 1.06,0 0,1 -1.34,0.63A1,1 0,0 1,18.16 54Z" />
+    <path
+        android:fillColor="@color/blue_light"
+        android:pathData="M37,2.34a1,1 0,1 1,0.62 1.34A1,1 0,0 1,37 2.34Z" />
+    <path
+        android:fillColor="@color/blue_light"
+        android:pathData="M55.45,34.35a1,1 0,1 1,1.2 -0.85A1,1 0,0 1,55.45 34.35Z" />
+    <path
+        android:fillColor="@color/blue_light"
+        android:pathData="M1.28,24.79A1,1 0,1 1,2.49 24,1 1,0 0,1 1.28,24.79Z" />
+    <path
+        android:fillColor="@color/blue_light"
+        android:pathData="M22.74,55.45a1,1 0,1 1,2.05 0.36,1 1,0 0,1 -2.05,-0.36Z" />
+    <path
+        android:fillColor="@color/blue_light"
+        android:pathData="M32.29,1.28a1,1 0,1 1,0.85 1.21A1,1 0,0 1,32.29 1.28Z" />
+    <path
+        android:fillColor="#fff"
+        android:pathData="M24.64,27.52a5,5 0,1 1,7.77 0l0.29,0.2a7.49,7.49 0,0 1,3.39 6.2,0.61 0.61,0 0,1 -0.68,0.7L21.64,34.62a0.61,0.61 0,0 1,-0.68 -0.7,7.5 7.5,0 0,1 3.39,-6.2ZM28.52,28.19a3.77,3.77 0,1 0,-3.77 -3.76A3.77,3.77 0,0 0,28.52 28.19ZM22.19,33.4l0.22,0h5.67a0.62,0.62 0,0 0,0.37 -0.18L32.4,29.3l0.2,-0.22 -0.85,-0.57a0.35,0.35 0,0 0,-0.47 0,4.88 4.88,0 0,1 -5.52,0 0.38,0.38 0,0 0,-0.47 0,6.32 6.32,0 0,0 -2.56,2.85A5.51,5.51 0,0 0,22.19 33.4ZM30.05,33.4h4.79A5.77,5.77 0,0 0,33.45 30Z" />
+</vector>

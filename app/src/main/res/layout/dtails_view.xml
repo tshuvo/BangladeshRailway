@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_light"
+    android:keepScreenOn="true">
+
+    <RelativeLayout
+        android:id="@+id/header_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:background="@color/color_white"
+        android:gravity="center_vertical"
+        android:paddingStart="@dimen/_25sdp"
+        android:paddingTop="@dimen/_8sdp"
+        android:paddingEnd="@dimen/_25sdp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ac_iv_rail_logo"
+            android:layout_width="@dimen/_24sdp"
+            android:layout_height="@dimen/_24sdp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/_5sdp"
+            app:srcCompat="@drawable/br" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/ac_tv_br_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/ac_iv_rail_logo"
+            android:text="@string/bd_rail_way"
+            android:textColor="@color/red_dark"
+            android:textSize="@dimen/text_size_26"
+            android:textStyle="bold"
+            tools:ignore="RelativeOverlap" />
+
+        <LinearLayout
+            android:id="@+id/ll_signal_holder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/ll_date_time_holder"
+            android:layout_toEndOf="@+id/ac_tv_br_title"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ac_iv_signal_internet"
+                android:layout_width="@dimen/_16sdp"
+                android:layout_height="@dimen/_16sdp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:background="@null" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ac_iv_signal_sever"
+                android:layout_width="@dimen/_16sdp"
+                android:layout_height="@dimen/_16sdp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:background="@null"
+                app:srcCompat="@drawable/ic_server_disconnected" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_date_time_holder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:text="@string/txt_last_refresh_time"
+                android:textColor="@color/orange"
+                android:textSize="@dimen/text_size_11"
+                android:textStyle="bold"
+                tools:text="Last Refresh Time" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/_16sdp"
+                android:layout_height="@dimen/_16sdp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                app:srcCompat="@drawable/ic_header_date" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/ac_tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:textColor="@color/blue_ocean"
+                android:textSize="@dimen/text_size_11"
+                android:textStyle="bold"
+                tools:text="24 November 2021" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/img_time"
+                android:layout_width="@dimen/_16sdp"
+                android:layout_height="@dimen/_16sdp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                app:srcCompat="@drawable/ic_header_time" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/ac_tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue_ocean"
+                android:textSize="@dimen/text_size_11"
+                android:textStyle="bold"
+                tools:text="03.00 Ghotika" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/train_item_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header_layout"
+        android:clipToPadding="false"
+        android:paddingStart="@dimen/_13sdp"
+        android:paddingTop="@dimen/_1sdp"
+        android:paddingEnd="@dimen/_13sdp" />
+
+    <LinearLayout
+        android:id="@+id/ll_marquee_holder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_9sdp"
+        android:background="@color/color_white"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/_5sdp"
+        android:paddingTop="@dimen/_5sdp"
+        android:paddingEnd="0dp"
+        android:paddingBottom="@dimen/_5sdp"
+        android:visibility="gone">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_montobbo"
+            android:textColor="@color/orange"
+            android:textSize="@dimen/text_size_15"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/ac_tv_remarks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:freezesText="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textAlignment="textStart"
+            android:textColor="@color/red_dark"
+            android:textSize="@dimen/text_size_15" />
+    </LinearLayout>
+</RelativeLayout>

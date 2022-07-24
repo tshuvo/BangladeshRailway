@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".view.activity.AuthorizationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/_50sdp"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_auth_code_bn"
+            android:textColor="@color/gray_light"
+            android:textSize="@dimen/text_size_18"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/ac_et_authorization_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_corners_square_gray_light"
+            android:gravity="center_vertical"
+            android:hint="@string/txt_enter_auth_code_bn"
+            android:imeOptions="flagNoExtractUi"
+            android:inputType="text"
+            android:minHeight="@dimen/_40sdp"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_18"
+            android:textStyle="bold">
+
+            <requestFocus />
+        </androidx.appcompat.widget.AppCompatEditText>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_next_to_authorization"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_centerInParent="true"
+                android:background="@color/transparent"
+                android:backgroundTint="@color/blue_light"
+                app:fabSize="normal"
+                app:srcCompat="@drawable/ic_arrow_forward_24"
+                tools:ignore="UnusedAttribute" />
+
+            <androidx.core.widget.ContentLoadingProgressBar
+                android:id="@+id/cl_progress_bar_next"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@color/transparent"
+                android:theme="@style/CLPBarNextTheme"
+                android:visibility="invisible" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

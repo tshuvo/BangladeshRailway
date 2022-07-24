@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">BangladeshRailway</string>
+
+    <string name="txt_auth_code">Authorization Code</string>
+    <string name="txt_auth_code_bn">পিন কোড</string>
+    <string name="txt_enter_auth_code">Enter Authorization Code</string>
+    <string name="txt_enter_auth_code_bn">পিন কোড লিখুন</string>
+
+    <string name="txt_no_internet">No Internet</string>
+    <string name="txt_no_internet_bn">ইন্টারনেট নেই</string>
+
+    <string name="txt_no_server_bn">সার্ভার এর সাথে যোগাযোগ করা সম্ভব হয়নি</string>
+
+    <string name="txt_no_internet2">Please Connect to Internet</string>
+    <string name="txt_no_internet2_bn">ইন্টারনেট সংযুক্ত করুন</string>
+
+    <string name="txt_ok">OK</string>
+    <string name="txt_ok_bn">ঠিক আছে</string>
+
+    <string name="bd_rail_way">বাংলাদেশ রেলওয়ে</string>
+    <string name="txt_last_refresh_time">রিফ্রেশ সময়</string>
+
+    <string name="txt_ghotoka">\u0020ঘটিকা</string>
+    <string name="snack_bar">Dismiss</string>
+    <string name="snack_bar_bn">ডিসমিস</string>
+    <string name="double_coats_down"> \'"'\ </string>
+
+    <string name="txt_waiting">Please Waiting…</string>
+    <string name="txt_waiting_bn">অনুগ্রহ করে অপেক্ষা করুন…</string>
+    <string name="txt_montobbo">মন্তব্য\u0020:\u0020</string>
+
+    <string name="txt_empty_auth_code">Please Enter Authorization Code</string>
+    <string name="txt_empty_auth_code_bn">অনুগ্রহ করে পিন কোড লিখুন</string>
+    <string name="error_msg">Something went wrong,Please try again later</string>
+    <string name="error_msg_bn">কিছুক্ষণ পর আবার চেষ্টা করুন</string>
+    <string name="colon">:- </string>
+</resources>

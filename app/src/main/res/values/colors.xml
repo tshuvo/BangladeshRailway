@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="fastlane_background">#03DAC5</color>
+    <color name="header_tag">#8E8D8D</color>
+    <color name="text_color_greeen">#00AA86</color>
+    <color name="view_color">#00AA86</color>
+    <color name="color_white">#FFFFFF</color>
+
+    <!-- gray -->
+    <color name="gray_light2">#989696</color>
+    <color name="grey_color">#dddddd</color>
+    <color name="gray_dim">#4B4B4B</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="black">#ff000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="blue_navy">#032D74</color>
+    <color name="magenta">#FF00FF</color>
+    <color name="color5">#F0551F</color>
+    <color name="bg_display">#EDECF1</color>
+
+    <color name="blue_light">#00ABE1</color>
+    <color name="gray_light">#9FA1A0</color>
+    <color name="orange">#E47312</color>
+    <color name="blue_ocean">#0082D2</color>
+    <color name="pest">#00D7E1</color>
+    <color name="pest_bright">#00AAE1</color>
+    <color name="green_light">#00AA87</color>
+    <color name="green">#015E40</color>
+    <color name="green_lighter">#00AA87</color>
+    <color name="green_dark">#00AAB4</color>
+    <color name="red_dark">#A30202</color>
+</resources>
